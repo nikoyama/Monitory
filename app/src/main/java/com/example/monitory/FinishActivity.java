@@ -6,6 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
+//Tanggal Pengerjaan : 7 May 2021
+//Deskripsi Pengerjaan : menggunakan varibel nama yang sudah dikirim dari activity_bio
+//NIM : 10118048
+//Nama : Niko Yama
+//Kelas : IF-2
+
 public class FinishActivity extends AppCompatActivity {
 
     @Override

@@ -7,6 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+//Tanggal Pengerjaan : 7 May 2021
+//Deskripsi Pengerjaan : menghubungkan activity_code dengan activity_bio
+//NIM : 10118048
+//Nama : Niko Yama
+//Kelas : IF-2
+
 public class CodeActivity extends AppCompatActivity {
 
     @Override

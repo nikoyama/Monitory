@@ -8,6 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+//Tanggal Pengerjaan : 7 May 2021
+//Deskripsi Pengerjaan : menghubungkan activity_bio dengan activity_finish dan menyimpan/mengirim variabel nama
+//NIM : 10118048
+//Nama : Niko Yama
+//Kelas : IF-2
+
 public class BioActivity extends AppCompatActivity {
 
     @Override

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CodeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="150dp"
+        android:background="@color/white_three"
+        android:elevation="1dp"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/kode_keluarga"
+            android:textColor="@color/black_87"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/ketikkan_kode"
+            android:textColor="@color/black3"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/white_btn_background"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/a1b2c3"
+            android:textColor="@color/black_87"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/ketentuan"
+            android:textAlignment="center"
+            android:textColor="@color/black3"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/yellow_btn_background"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/masuk"
+            android:textAllCaps="false"
+            android:textColor="@color/black_87" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/belum_punya_kode_keluarga"
+            android:textColor="@color/gunmetal"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/txt"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/purple_btn_background"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/beli_kode_keluarga_disini"
+            android:textAllCaps="false"
+            android:textColor="@color/white_three" />
+    </RelativeLayout>
+</RelativeLayout>

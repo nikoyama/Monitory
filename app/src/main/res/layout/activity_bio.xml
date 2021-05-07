@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_three"
+    tools:context=".BioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/nama_panggilan_kamu"
+            android:textColor="@color/black_87"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/brown_grey_87"
+            android:fontFamily="@font/rubik_regular"
+            android:hint="Contoh : Budi"
+            android:inputType="text"
+            android:paddingBottom="20dp"
+            android:textColor="@color/brown_grey"
+            android:textColorHint="@color/brown_grey_87" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/umur_kamu"
+            android:textColor="@color/black_87"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/edt_umur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/brown_grey_87"
+            android:fontFamily="@font/rubik_regular"
+            android:hint="Contoh : 12"
+            android:inputType="number"
+            android:paddingBottom="20dp"
+            android:textColor="@color/brown_grey"
+            android:textColorHint="@color/brown_grey_87" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_selanjutnya"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/yellow_btn_background"
+        android:elevation="2dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Selanjutnya"
+        android:textAllCaps="false"
+        android:textColor="@color/black_87" />
+
+</RelativeLayout>
